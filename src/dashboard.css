@@ -1,0 +1,44 @@
+/* src/dashboard.css */
+
+.layout {
+  display: flex;
+  height: 100vh;
+}
+
+.sidebar {
+  width: 220px;
+  background: #2f3b52;
+  color: white;
+  padding: 20px;
+}
+
+.menu {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-top: 20px;
+}
+
+.menu a {
+  color: #cfd8dc;
+  text-decoration: none;
+  font-size: 15px;
+}
+
+.menu a:hover {
+  color: white;
+}
+
+.logout-btn {
+  margin-top: 30px;
+  padding: 8px;
+  width: 100%;
+  border: none;
+  cursor: pointer;
+}
+
+.content {
+  flex: 1;
+  padding: 30px;
+  background: #5fc3d8;
+}

@@ -1,0 +1,85 @@
+/* Full screen center */
+.login-page {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #9fd3d6;
+}
+
+/* Card box */
+.login-box {
+  width: 360px;
+  padding: 30px;
+  border-radius: 18px;
+  background: rgba(255, 255, 255, 0.75);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+  text-align: center;
+}
+
+/* Title */
+.login-box h2 {
+  margin-bottom: 20px;
+}
+
+/* Inputs */
+.login-box input[type="email"],
+.login-box input[type="password"] {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  outline: none;
+  font-size: 14px;
+}
+
+/* Remember + Forgot */
+.options {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 12px 0;
+}
+
+.remember {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 14px;
+}
+
+.remember input {
+  margin: 0;
+}
+
+.forgot {
+  font-size: 14px;
+  text-decoration: underline;
+  cursor: pointer;
+  color: #6a5acd;
+}
+
+/* Login button */
+.login-btn {
+  width: 100%;
+  padding: 12px;
+  margin-top: 12px;
+  border-radius: 22px;
+  border: none;
+  background: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+/* Bottom text */
+.login-box p {
+  margin-top: 15px;
+  font-size: 13px;
+}
+
+.login-box p a {
+  color: #6a5acd;
+  text-decoration: none;
+  font-weight: 500;
+}
